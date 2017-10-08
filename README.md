@@ -12,7 +12,13 @@ psycopg2 module compiled on an Amazon Linux AMI for use in a lambda to connect t
 
 Copy `psycopg2` to lambda zip for upload or copy `psycopg2-ssl` to lambda zip and rename to `psycopg2` for upload.
 
+### Version info
+
+- PostgreSQL: 9.4.3
+- psycopg2: 2.6.1
+- Python: 3.6
+
 ## Resources
 
-[PostgreSQL source code](https://ftp.postgresql.org/pub/source/v9.4.3/postgresql-9.4.3.tar.gz)
-[psycopg2 source code](http://initd.org/psycopg/tarballs/PSYCOPG-2-6/psycopg2-2.6.1.tar.gz)
+- [PostgreSQL source code](https://ftp.postgresql.org/pub/source/v9.4.3/postgresql-9.4.3.tar.gz)
+- [psycopg2 source code](http://initd.org/psycopg/tarballs/PSYCOPG-2-6/psycopg2-2.6.1.tar.gz)
